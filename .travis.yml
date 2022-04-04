@@ -29,7 +29,7 @@ install:
   - ln -s server_environment_files_sample ./server_environment_files
 
 script:
-  - travis_run_test
+  - travis_run_tests
 
 after_success:
   coveralls
